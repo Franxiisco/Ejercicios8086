@@ -2,9 +2,9 @@
 
 data segment
     ; add your data here! 
-    m1 db "Numero 1: ","$"
-    m2 db "Numero 2: ","$"
-    m3 db "Resultado: ","$"
+    m1 db 13,10, "Numero 1: ","$"
+    m2 db 13,10,"",13,10,"Numero 2: ","$"
+    m3 db 13,10,"",13,10,"Resultado: ","$"
     var1 db 0
     var2 db 0
 ends
